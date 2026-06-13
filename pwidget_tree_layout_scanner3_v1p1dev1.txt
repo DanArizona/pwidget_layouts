@@ -1,0 +1,59 @@
+(sea-green) C:\Users\DanLa\Documents\github\ToS_scanner>mb-pwidget-tree
+usage: mb-pwidget-tree [-h] [--root ROOT] [--no-abs] [--no-text] [--roots-only] yaml_file
+mb-pwidget-tree: error: the following arguments are required: yaml_file
+
+(sea-green) C:\Users\DanLa\Documents\github\ToS_scanner>mb-pwidget-tree "C:\Users\DanLa\Documents\github\pwidget_layouts\layout_scanner3_v1p1dev1.yaml"
+win_updater  rel=(772, 199, 377, 682)  coord='parent'  abs=(772, 199, 377, 682)  center=(960, 540)
+
+win_logon          rel=(772, 199, 377, 682)  coord='parent'  abs=(772, 199, 377, 682)  center=(960, 540)
+├─ ledit_userid    rel=( 20, 168, 333,  43)  coord='parent'  abs=(792, 367, 333,  43)  center=(958, 388)
+├─ ledit_pword     rel=( 20, 171, 334,  45)  coord='parent'  abs=(792, 370, 334,  45)  center=(959, 392)
+├─ btn_try_login   rel=( 23, 266, 330,  45)  coord='parent'  abs=(795, 465, 330,  45)  center=(960, 487)
+└─ btn_cont_login  rel=( 23, 297, 330,  45)  coord='parent'  abs=(795, 496, 330,  45)  center=(960, 518)
+
+win_main                         rel=( 730,   0, 1190, 1080)  coord='parent'  abs=( 730,   0, 1190, 1080)  center=(1325, 540)
+├─ btn_main_exit                 rel=(1151,   9,   32,   16)  coord='parent'  abs=(1881,   9,   32,   16)  center=(1897,  17)  text='X'
+└─ tab_scan                      rel=( 180,  49,   43,   20)  coord='parent'  abs=( 910,  49,   43,   20)  center=( 931,  59)  text='Scan'
+   ├─ btn_stock_hacker           rel=(-142,  24,   75,   15)  coord='parent'  abs=( 768,  73,   75,   15)  center=( 805,  80)  text='Stock Hacker'
+   │  ├─ btn_scan                rel=(1094, 193,   47,   23)  coord='popup'   abs=(1862, 266,   47,   23)  center=(1885, 277)  text='Scan'
+   │  └─ ocr_MyR_5               rel=( 145, 263,   85,   80)  coord='popup'   abs=( 913, 336,   85,   80)  center=( 955, 376)
+   ├─ btn_query_menu             rel=( 973,  45,   34,   18)  coord='popup'   abs=(1883,  94,   34,   18)  center=(1900, 103)
+   │  └─ pick_load_query         rel=(-153,  51,  184,   23)  coord='popup'   abs=(1730, 145,  184,   23)  center=(1822, 156)  text='Load scan query'
+   │     ├─ pick_personal_query  rel=(-242,   0,  240,   23)  coord='popup'   abs=(1488, 145,  240,   23)  center=(1608, 156)  text='Personal'
+   │     │  └─ pick_scan50_data  rel=( 242,  96,  156,   23)  coord='popup'   abs=(1730, 241,  156,   23)  center=(1808, 252)  text='scan050_data'
+   │     └─ pick_public_query    rel=(-242,  24,  240,   23)  coord='popup'   abs=(1488, 169,  240,   23)  center=(1608, 180)  text='Public'
+   │        └─ pick_pct_gainers  rel=(-240,   1,  239,   23)  coord='popup'   abs=(1248, 170,  239,   23)  center=(1367, 181)  text='% Change Gainers'
+   └─ btn_action_menu            rel=( 973,  22,   34,   20)  coord='popup'   abs=(1883,  71,   34,   20)  center=(1900,  81)
+      └─ pick_export             rel=(-133, 170,  164,   23)  coord='popup'   abs=(1750, 241,  164,   23)  center=(1832, 252)  text='Export'
+         └─ pick_to_file         rel=(-154,   0,  152,   23)  coord='popup'   abs=(1596, 241,  152,   23)  center=(1672, 252)  text='To file...'
+
+win_export         rel=(  0,   0, 960, 509)  coord='parent'  abs=(  0,   0, 960, 509)  center=(480, 254)
+├─ ledit_dir       rel=(146,  42, 515,  32)  coord='parent'  abs=(146,  42, 515,  32)  center=(403,  58)
+├─ ledit_fname     rel=(134, 356, 795,  20)  coord='parent'  abs=(134, 356, 795,  20)  center=(531, 366)
+├─ btn_exp_save    rel=(748, 459,  85,  23)  coord='parent'  abs=(748, 459,  85,  23)  center=(790, 470)  text='Save'
+└─ btn_exp_cancel  rel=(848, 459,  85,  23)  coord='parent'  abs=(848, 459,  85,  23)  center=(890, 470)  text='Cancel'
+
+win_wl_main                   rel=(306, 194, 435, 886)  coord='parent'  abs=(306, 194, 435, 886)  center=(523, 637)
+├─ btn_wl_burger              rel=(392,  31,  35,  20)  coord='parent'  abs=(698, 225,  35,  20)  center=(715, 235)
+│  └─ pick_wl_export          rel=(-64, 154, 164,  24)  coord='parent'  abs=(634, 379, 164,  24)  center=(716, 391)
+├─ btn_wl_myr_sort            rel=( 77,  52,  78,  16)  coord='parent'  abs=(383, 246,  78,  16)  center=(422, 254)
+└─ btn_wl_action              rel=( 83,  32,  34,  18)  coord='parent'  abs=(389, 226,  34,  18)  center=(406, 235)
+   ├─ pick_wl_personal        rel=(-47, 130, 206,  23)  coord='popup'   abs=(342, 356, 206,  23)  center=(445, 367)  text='Personal'
+   │  ├─ pick_wl_default      rel=(208,  24, 167,  23)  coord='popup'   abs=(550, 380, 167,  23)  center=(633, 391)
+   │  └─ pick_wl_scan50_data  rel=(208, 168, 167,  23)  coord='popup'   abs=(550, 524, 167,  23)  center=(633, 535)
+   └─ pick_import             rel=(-47, 401, 206,  23)  coord='popup'   abs=(342, 627, 206,  23)  center=(445, 638)  text='Public'
+
+win_wl_symbols       rel=(  0,   0, 502, 247)  coord='parent'  abs=(  0,   0, 502, 247)  center=(251, 123)
+├─ rbutt_si_paste    rel=( 19,  60, 175,  14)  coord='parent'  abs=( 19,  60, 175,  14)  center=(106,  67)
+├─ rbutt_si_replace  rel=( 19, 145, 150,  14)  coord='parent'  abs=( 19, 145, 150,  14)  center=( 94, 152)
+├─ rbutt_si_add      rel=( 19, 161, 150,  14)  coord='parent'  abs=( 19, 161, 150,  14)  center=( 94, 168)
+├─ btn_si_save       rel=(378, 211,  39,  25)  coord='parent'  abs=(378, 211,  39,  25)  center=(397, 223)  text='Save'
+└─ btn_si_cancel     rel=(426, 211,  60,  25)  coord='parent'  abs=(426, 211,  60,  25)  center=(456, 223)  text='Cancel'
+
+win_wl_export      rel=(  0,   0, 960, 509)  coord='parent'  abs=(  0,   0, 960, 509)  center=(480, 254)
+├─ ledit_wl_dir    rel=(136, 389, 795,  16)  coord='parent'  abs=(136, 389, 795,  16)  center=(533, 397)
+├─ ledit_wl_fname  rel=(136, 389, 795,  16)  coord='parent'  abs=(136, 389, 795,  16)  center=(533, 397)
+├─ btn_wl_save     rel=(743, 490,  90,  23)  coord='parent'  abs=(743, 490,  90,  23)  center=(788, 501)  text='Save'
+└─ btn_wl_cancel   rel=(848, 490,  84,  23)  coord='parent'  abs=(848, 490,  84,  23)  center=(890, 501)  text='Cancel'
+
+(sea-green) C:\Users\DanLa\Documents\github\ToS_scanner>
