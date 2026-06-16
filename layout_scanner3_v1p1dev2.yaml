@@ -162,10 +162,10 @@ win_export:
   coord: parent
   children:
     ledit_exp_dir:
-      width: 515
-      height: 32
-      Xtl: 146
-      Ytl: 42
+      width: 21
+      height: 18
+      Xtl: 151
+      Ytl: 47
       ptxt: ""
       coord: parent
       children: {}
@@ -224,7 +224,7 @@ win_wl_main:
       coord: parent
       children: {}
     btn_wl_actions:
-      width: 34
+      width: 111
       height: 18
       Xtl: 83
       Ytl: 32
