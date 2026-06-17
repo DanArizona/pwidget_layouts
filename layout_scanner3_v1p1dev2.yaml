@@ -14,20 +14,20 @@ win_logon:
   ptxt: ""
   children:
     ledit_login_userid:
-      width: 333
+      width: 334
       height: 43
-      Xtl: 20
+      Xtl: 21
       Ytl: 168
       ptxt: ""
     ledit_login_pword:
-      width: 334
+      width: 336
       height: 45
       Xtl: 20
       Ytl: 171
       ptxt: ""
     btn_login_try:
       width: 330
-      height: 45
+      height: 47
       Xtl: 23
       Ytl: 266
       ptxt: ""
@@ -60,7 +60,7 @@ win_main:
       children:
         btn_stock_hacker:
           width: 75
-          height: 15
+          height: 14
           Xtl: -142
           Ytl: 24
           ptxt: "Stock Hacker"
@@ -74,7 +74,7 @@ win_main:
               coord: popup
               children: {}
             ocr_hacker_MyR5:
-              width: 85
+              width: 86
               height: 80
               Xtl: 145
               Ytl: 263
@@ -85,7 +85,7 @@ win_main:
           width: 34
           height: 18
           Xtl: 973
-          Ytl: 45
+          Ytl: 44
           ptxt: ""
           coord: popup
           children:
@@ -106,7 +106,7 @@ win_main:
                   coord: popup
                   children:
                     pick_query_scan50:
-                      width: 156
+                      width: 166
                       height: 23
                       Xtl: 242
                       Ytl: 96
@@ -133,7 +133,7 @@ win_main:
           width: 34
           height: 20
           Xtl: 973
-          Ytl: 22
+          Ytl: 21
           ptxt: ""
           coord: popup
           children:
