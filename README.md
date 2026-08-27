@@ -6,7 +6,7 @@ Versioned pseudo-widget layout definitions used by the MasterBot ThinkOrSwim GUI
 
 `pwidget_layouts` stores YAML files that describe the geometry and hierarchy of GUI elements used by pseudo-widget based automation.
 
-These layouts are consumed by projects such as:
+These layouts are consumed by projects such as: 
 
 * `ToS_scanner`
 * `ToS_gui_survey`
